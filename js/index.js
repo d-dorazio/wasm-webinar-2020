@@ -15,6 +15,9 @@ import("../pkg/index.js")
 
             ctx.clearRect(0, 0, width, height);
 
+            ctx.fillStyle = "#5d9d88";
+            ctx.fillRect(0, 0, width, height);
+
             ctx.fillStyle = "#ebb43b";
             for (const c of circles) {
                 ctx.beginPath();
